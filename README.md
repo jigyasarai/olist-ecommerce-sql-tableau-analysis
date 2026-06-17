@@ -1,18 +1,28 @@
 # Olist E-Commerce Sales & Customer Analytics
 
-![Sales Dashboard](Dashboard%201.png)
-
 ## Project Overview
 
-This project analyzes the Brazilian Olist E-Commerce dataset using SQL and Tableau to uncover insights into sales performance, customer behavior, product trends, and operational efficiency.
+This project analyzes the Olist Brazilian E-Commerce dataset using SQL and Tableau to uncover insights related to sales performance, customer behavior, product performance, and operational efficiency.
 
-The project combines SQL for data extraction and KPI generation with Tableau for interactive dashboard creation.
+The objective was to transform raw transactional data into actionable business insights through SQL analysis and interactive dashboards.
 
 ---
 
-## Dataset Source
+## Dataset
 
-https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+**Source:** Olist Brazilian E-Commerce Dataset
+
+The dataset contains information about:
+
+- Orders
+- Customers
+- Products
+- Sellers
+- Payments
+- Reviews
+- Delivery Information
+
+It represents real-world e-commerce transactions from Brazil and provides a comprehensive view of marketplace operations.
 
 ---
 
@@ -28,6 +38,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 ## Business Questions Answered
 
 ### Sales Performance
+
 - What is the total revenue generated?
 - How many orders were placed?
 - What is the average order value?
@@ -37,6 +48,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 - Which product categories contribute the most revenue?
 
 ### Customer & Operations
+
 - What is the average customer review score?
 - What percentage of orders are delivered on time?
 - What is the average shipping duration?
@@ -47,10 +59,10 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ---
 
-# Key KPIs
+## Key KPIs
 
 | KPI | Value |
-|------|------|
+|------|--------|
 | Total Revenue | R$16.0M |
 | Total Orders | 99,441 |
 | Average Order Value | R$160.99 |
@@ -77,7 +89,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ### Dashboard Preview
 
-![Dashboard 1](Dashboard%201.png)
+![Sales Dashboard](dashboard_1.png)
 
 ---
 
@@ -96,48 +108,57 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ### Dashboard Preview
 
-![Dashboard 2](Dashboard%202.png)
+![Customer Dashboard](dashboard_2.png)
 
 ---
 
-# Key Insights
+## Key Business Insights
 
-## Revenue & Sales
+### Revenue & Sales
 
 - Total revenue exceeded R$16 million.
 - Revenue grew significantly throughout 2017 and peaked during 2018.
 - São Paulo generated the highest revenue among all states.
-- A small number of categories contributed a large share of overall revenue.
+- A small number of product categories contributed the majority of revenue.
 
-## Customer Experience
+### Customer Experience
 
-- Average customer review score remained above 4.0.
+- Customers reported high satisfaction with an average review score above 4.
 - More than 91% of orders were delivered on time.
-- Average shipping duration was approximately 12.5 days.
+- Delivery operations demonstrated strong efficiency.
 
-## Product Performance
+### Product Performance
 
-- cama_mesa_banho generated the highest unit sales.
-- beleza_saude consistently ranked among the highest revenue-generating categories.
-- Highly rated categories maintained average review scores above 4.0 based on substantial review volume.
+- Home and lifestyle categories dominated unit sales.
+- Several categories consistently maintained ratings above 4.0.
+- Category preferences varied significantly across states.
+
+### Strategic Recommendations
+
+1. Increase focus on high-performing states such as São Paulo.
+2. Expand inventory for top-selling categories.
+3. Maintain strong delivery performance standards.
+4. Leverage highly rated categories to improve customer trust.
+5. Use regional category trends for targeted marketing campaigns.
 
 ---
 
-# Files Included
+## Repository Structure
 
-| File | Description |
-|--------|-------------|
-| ecommerce.sql | SQL queries used for KPI and analysis generation |
-| DASHBOARD1.twb | Tableau Sales Performance Dashboard |
-| DASHBOARD2.twb | Tableau Customer & Product Insights Dashboard |
-| Dashboard 1.png | Dashboard 1 Screenshot |
-| Dashboard 2.png | Dashboard 2 Screenshot |
-| business_insights.md | Summary of business findings |
+```text
+.
+├── README.md
+├── Ecommerce.sql
+├── business_insights.md
+├── dashboard_1.twb
+├── dashboard_2.twb
+├── dashboard_1.png
+└── dashboard_2.png
+```
 
 ---
 
 ## Author
 
 **Jigyasa Rai**
-
 B.Tech Computer Science Student | SQL | Tableau | Data Analytics
