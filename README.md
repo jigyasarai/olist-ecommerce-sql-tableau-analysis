@@ -4,11 +4,11 @@ A SQL and Tableau project analyzing 99,000+ e-commerce orders from the Brazilian
 
 ## Dashboard 1: Sales Performance Overview
 
-![Dashboard 1](dashboard_1.png)
+![Dashboard 1](dashboard_01.png)
 
 ## Dashboard 2: Product & Customer Insights
 
-![Dashboard 2](dashboard_2.png)
+![Dashboard 2](dashboard_02.png)
 
 ---
 
