@@ -4,11 +4,11 @@ A SQL and Tableau project analyzing 99,000+ e-commerce orders from the Brazilian
 
 ## Dashboard 1: Sales Performance Overview
 
-![Dashboard 1](Dashboard%201.png)
+![Dashboard 1](dashboard_1.png)
 
 ## Dashboard 2: Product & Customer Insights
 
-![Dashboard 2](Dashboard%202.png)
+![Dashboard 2](dashboard_2.png)
 
 ---
 
@@ -81,7 +81,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 - Total revenue exceeded R$16 million.
 - Revenue grew significantly throughout 2017 and peaked during 2018.
 - São Paulo generated the highest revenue among all states.
-- A small number of categories contributed a large share of overall revenue.
+- A small number of product categories contributed the majority of revenue.
 
 ### Customer Experience
 
@@ -91,9 +91,17 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ### Product Performance
 
-- cama_mesa_banho generated the highest unit sales.
-- beleza_saude consistently ranked among the highest revenue-generating categories.
+- **cama_mesa_banho** generated the highest unit sales.
+- **beleza_saude** consistently ranked among the highest revenue-generating categories.
 - Highly rated categories maintained average review scores above 4.0 based on substantial review volume.
+
+### Strategic Recommendations
+
+1. Increase focus on high-performing states such as São Paulo.
+2. Expand inventory for top-selling categories.
+3. Maintain strong delivery performance standards.
+4. Leverage highly rated categories to improve customer trust.
+5. Use regional category trends for targeted marketing campaigns.
 
 ---
 
@@ -101,11 +109,11 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 | File | Description |
 |--------|-------------|
-| ecommerce.sql | SQL queries used for KPI and analysis generation |
+| Ecommerce.sql | SQL queries used for KPI and analysis generation |
 | DASHBOARD1.twb | Tableau Sales Performance Dashboard |
 | DASHBOARD2.twb | Tableau Customer & Product Insights Dashboard |
-| Dashboard 1.png | Dashboard 1 Screenshot |
-| Dashboard 2.png | Dashboard 2 Screenshot |
+| dashboard_1.png | Dashboard 1 Screenshot |
+| dashboard_2.png | Dashboard 2 Screenshot |
 | business_insights.md | Summary of business findings |
 
 ---
