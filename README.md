@@ -1,28 +1,28 @@
 # Olist E-Commerce Sales & Customer Analytics
 
-## Project Overview
+A SQL and Tableau project analyzing 99,000+ e-commerce orders from the Brazilian Olist marketplace to uncover insights into sales performance, customer behavior, product demand, and operational efficiency.
 
-This project analyzes the Olist Brazilian E-Commerce dataset using SQL and Tableau to uncover insights related to sales performance, customer behavior, product performance, and operational efficiency.
+## Dashboard 1: Sales Performance Overview
 
-The objective was to transform raw transactional data into actionable business insights through SQL analysis and interactive dashboards.
+![Dashboard 1](Dashboard%201.png)
+
+## Dashboard 2: Product & Customer Insights
+
+![Dashboard 2](Dashboard%202.png)
 
 ---
 
-## Dataset
+## Project Overview
 
-**Source:** Olist Brazilian E-Commerce Dataset
+This project analyzes the Brazilian Olist E-Commerce dataset using SQL and Tableau to uncover insights into sales performance, customer behavior, product trends, and operational efficiency.
 
-The dataset contains information about:
+The project combines SQL for data extraction and KPI generation with Tableau for interactive dashboard creation.
 
-- Orders
-- Customers
-- Products
-- Sellers
-- Payments
-- Reviews
-- Delivery Information
+---
 
-It represents real-world e-commerce transactions from Brazil and provides a comprehensive view of marketplace operations.
+## Dataset Source
+
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ---
 
@@ -62,7 +62,7 @@ It represents real-world e-commerce transactions from Brazil and provides a comp
 ## Key KPIs
 
 | KPI | Value |
-|------|--------|
+|------|------|
 | Total Revenue | R$16.0M |
 | Total Orders | 99,441 |
 | Average Order Value | R$160.99 |
@@ -74,91 +74,43 @@ It represents real-world e-commerce transactions from Brazil and provides a comp
 
 ---
 
-# Dashboard 1: Sales Performance Overview
-
-### KPIs
-- Total Revenue
-- Total Orders
-- Average Order Value
-- Repeat Customer Rate
-
-### Visualizations
-- Quarterly Revenue Trend
-- Revenue by State
-- Top Categories by Revenue
-
-### Dashboard Preview
-
-![Sales Dashboard](dashboard_1.png)
-
----
-
-# Dashboard 2: Product & Customer Insights
-
-### KPIs
-- Average Review Score
-- On-Time Delivery Rate
-- Average Shipping Days
-- Seller Count
-
-### Visualizations
-- Top Categories by State Revenue
-- Top Categories by Units Sold
-- Highest Rated Categories (250+ Reviews)
-
-### Dashboard Preview
-
-![Customer Dashboard](dashboard_2.png)
-
----
-
-## Key Business Insights
+## Key Insights
 
 ### Revenue & Sales
 
 - Total revenue exceeded R$16 million.
 - Revenue grew significantly throughout 2017 and peaked during 2018.
 - São Paulo generated the highest revenue among all states.
-- A small number of product categories contributed the majority of revenue.
+- A small number of categories contributed a large share of overall revenue.
 
 ### Customer Experience
 
-- Customers reported high satisfaction with an average review score above 4.
+- Average customer review score remained above 4.0.
 - More than 91% of orders were delivered on time.
-- Delivery operations demonstrated strong efficiency.
+- Average shipping duration was approximately 12.5 days.
 
 ### Product Performance
 
-- Home and lifestyle categories dominated unit sales.
-- Several categories consistently maintained ratings above 4.0.
-- Category preferences varied significantly across states.
-
-### Strategic Recommendations
-
-1. Increase focus on high-performing states such as São Paulo.
-2. Expand inventory for top-selling categories.
-3. Maintain strong delivery performance standards.
-4. Leverage highly rated categories to improve customer trust.
-5. Use regional category trends for targeted marketing campaigns.
+- cama_mesa_banho generated the highest unit sales.
+- beleza_saude consistently ranked among the highest revenue-generating categories.
+- Highly rated categories maintained average review scores above 4.0 based on substantial review volume.
 
 ---
 
-## Repository Structure
+## Files Included
 
-```text
-.
-├── README.md
-├── Ecommerce.sql
-├── business_insights.md
-├── dashboard_1.twb
-├── dashboard_2.twb
-├── dashboard_1.png
-└── dashboard_2.png
-```
+| File | Description |
+|--------|-------------|
+| ecommerce.sql | SQL queries used for KPI and analysis generation |
+| DASHBOARD1.twb | Tableau Sales Performance Dashboard |
+| DASHBOARD2.twb | Tableau Customer & Product Insights Dashboard |
+| Dashboard 1.png | Dashboard 1 Screenshot |
+| Dashboard 2.png | Dashboard 2 Screenshot |
+| business_insights.md | Summary of business findings |
 
 ---
 
 ## Author
 
-**Jigyasa Rai**
+**Jigyasa Rai**  
 B.Tech Computer Science Student | SQL | Tableau | Data Analytics
